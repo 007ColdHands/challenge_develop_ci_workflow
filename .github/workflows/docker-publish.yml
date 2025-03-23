@@ -28,6 +28,7 @@ jobs:
     uses: 007ColdHands/generic_ci_python/.github/workflows/python-app.yml@main
     permissions:
       contents: read
+      checks: write
     
   build:
     needs: [integration]
